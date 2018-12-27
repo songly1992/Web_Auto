@@ -12,11 +12,11 @@ class Test_Add_Bug(unittest.TestCase):
 
      @classmethod
      def setUpClass(cls):
-         cls.driver=webdriver.Chrome()
+         cls.driver=webdriver.Chrome("C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver.exe")
          cls.driver.get("http://127.0.0.1/biz/user-login.html")
          cls.bug = add_bug(cls.driver)
          cls.bug.login()
-         print ("登陆成功")
+         print (u"登陆成功")
 
      def test_add_bug(self):
          timestr = time.strftime("%Y_%m_%d_%H_%M_%S")

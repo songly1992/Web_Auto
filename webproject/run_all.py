@@ -7,15 +7,15 @@ reload(sys)
 sys.setdefaultencoding('utf-8')
 
 #用例路径
-casepath="F:\\Web_Auto\\webproject\\case"
+casepath="F:\\github\\Web_Auto\\webproject\\case"
 rule="test*.py"
 discover=unittest.defaultTestLoader.discover(start_dir=casepath,pattern=rule)
 print (discover)
 
 
-filename="F:\\Web_Auto\\webproject\\report\\"+"result.html"
-fp=open(filename,'wb')
+filename="F:\\github\\Web_Auto\\webproject\\report\\"+"result.html"
+fp=file(filename,'wb')
 runner=HTMLTestRunner.HTMLTestRunner(stream=fp,
-                                    title="自动化测试报告",
-                                    description="禅道项目测试报告")
+                                    title='自动化测试报告',
+                                    description='禅道项目测试报告')
 runner.run(discover)

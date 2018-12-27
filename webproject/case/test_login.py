@@ -14,10 +14,10 @@ class loginclass(unittest.TestCase):
   @classmethod
   def setUpClass(cls):
      #启动浏览器并输入地址
-     cls.driver = webdriver.Chrome()
+     cls.driver = webdriver.Chrome("C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver.exe")
      cls.driver.get("http://127.0.0.1/biz/user-login.html")
      time.sleep(2)
-     print ('浏览器启动')
+     print (u'浏览器启动')
 
   def tearDown(self):
      is_alert_exist(self.driver)  # 调用is_alert_exist()方法
@@ -48,7 +48,7 @@ class loginclass(unittest.TestCase):
      #判断登陆结果
      t=self.get_login_usernam()   #调用获取登陆名的方法
      self.assertTrue(t == "admin")
-     print ("登陆成功，获取登陆结果:"+t)
+     print (u"登陆成功，获取登陆结果:"+t)
 
   def test_2(self):
      '''验证用户密码错误，登陆失败'''
@@ -57,7 +57,7 @@ class loginclass(unittest.TestCase):
 
      #判断登陆结果
      t = self.get_login_usernam()  # 调用获取登陆名的方法
-     print ("登陆失败，获取登陆结果："+t)
+     print (u"登陆失败，获取登陆结果："+t)
      self.assertTrue(t=="")
 
 

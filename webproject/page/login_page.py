@@ -48,6 +48,10 @@ class loginpage(Base):   #继承Base类，就不用实例化
         except:
             return ""
 
+    def is_login_username(self,text):
+             result=self.is_text_in_element(self.locl_login_name,text)
+             return result
+
 
     def login(self,name="admin",pwd="sly1992.",keep_login=False):
        '''用户登陆'''

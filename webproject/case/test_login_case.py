@@ -16,11 +16,13 @@ import time
 4、输入admin，输入123456，点击登录
 5、输入admin22,输入123456，点击登录
 '''
+
+
 class LoginPageCase(unittest.TestCase):
 
     @classmethod
     def setUpClass(cls):
-        cls.driver=webdriver.Chrome()
+        cls.driver=webdriver.Chrome("C:\\Users\\Administrator\\AppData\\Local\\Google\\Chrome\\Application\\chromedriver.exe")
         cls.logintest=loginpage(cls.driver)
 
     def setUp(self):

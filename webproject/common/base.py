@@ -15,10 +15,10 @@ class Base():
 
   def findElement(self,locator):
       if not isinstance(locator,tuple):
-          print ('locator参数类型错误，必须传元祖类型：locl=("id","account")')
+          print (u'locator参数类型错误，必须传元祖类型：locl=("id","account")')
       else:
           try:
-             print ("正在定位元素信息：定位方式->%s,value值->%s"%(locator[0],locator[1]))
+             print (u"正在定位元素信息：定位方式->%s,value值->%s"%(locator[0],locator[1]))
              ele=WebDriverWait(self.driver,self.timeout,self.t).until(lambda x: x.find_element(*locator))
              return ele
           except:
