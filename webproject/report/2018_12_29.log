@@ -1,0 +1,37 @@
+[2018-12-29 17:08:54,252] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:08:54,252] - logger.py[line:31] - fuc:__console- WARNING: ----测试结束----
+[2018-12-29 17:13:33,280] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:13:33,280] - logger.py[line:31] - fuc:__console- WARNING: ----测试结束----
+[2018-12-29 17:25:21,575] - logger.py[line:27] - fuc:__console- INFO: 登录成功
+[2018-12-29 17:25:21,575] - logger.py[line:27] - fuc:__console- INFO: -----测试开始-----
+[2018-12-29 17:25:33,451] - logger.py[line:27] - fuc:__console- INFO: ---测试结束----
+[2018-12-29 17:25:45,382] - logger.py[line:27] - fuc:__console- INFO: 登录成功
+[2018-12-29 17:25:54,605] - logger.py[line:27] - fuc:__console- INFO: 添加bug成功
+[2018-12-29 17:25:54,607] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:25:59,282] - logger.py[line:27] - fuc:__console- INFO: ---测试结束----
+[2018-12-29 17:26:06,526] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:26:07,591] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:26:11,266] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:26:11,591] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:26:15,595] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:26:15,885] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:26:20,871] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:26:21,223] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:26:25,125] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:26:26,200] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:26:30,112] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:26:30,539] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:30:19,122] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:30:19,122] - logger.py[line:31] - fuc:__console- WARNING: ----测试结束----
+[2018-12-29 22:04:59,101] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 22:04:59,118] - logger.py[line:31] - fuc:__console- WARNING: ----测试结束----
+[2018-12-29 22:06:26,855] - [line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 22:06:26,855] - [line:31] - fuc:__console- WARNING: ----测试结束----
+[2018-12-29 22:08:10,381] - [line:27] - INFO: ---测试开始----
+[2018-12-29 22:08:10,381] - [line:31] - WARNING: ----测试结束----
+[2018-12-29 22:08:55,760] -[line:27] -__console- INFO: ---测试开始----
+[2018-12-29 22:08:55,762] -[line:31] -__console- WARNING: ----测试结束----
+[2018-12-29 22:09:10,022] -[line:27] __console- INFO: ---测试开始----
+[2018-12-29 22:09:10,022] -[line:31] __console- WARNING: ----测试结束----
+[2018-12-29 22:09:38,328] - [line:27] __console - INFO: ---测试开始----
+[2018-12-29 22:09:38,345] - [line:31] __console - WARNING: ----测试结束----

@@ -189,9 +189,9 @@ function showOutput(id, name) {
 
 <div class='heading'>
 <h1>自动化测试报告</h1>
-<p class='attribute'><strong>Start Time:</strong> 2018-12-27 12:46:17</p>
-<p class='attribute'><strong>Duration:</strong> 0:01:40.715000</p>
-<p class='attribute'><strong>Status:</strong> Pass 14</p>
+<p class='attribute'><strong>Start Time:</strong> 2018-12-29 17:25:14</p>
+<p class='attribute'><strong>Duration:</strong> 0:01:20.758000</p>
+<p class='attribute'><strong>Status:</strong> Pass 8</p>
 
 <p class='description'>禅道项目测试报告</p>
 </div>
@@ -222,7 +222,7 @@ function showOutput(id, name) {
 </tr>
 
 <tr class='passClass'>
-    <td>test_add_bug.Test_Add_Bug</td>
+    <td>test_addbug_case.addbug_case</td>
     <td>1</td>
     <td>1</td>
     <td>0</td>
@@ -231,7 +231,7 @@ function showOutput(id, name) {
 </tr>
 
 <tr id='pt1.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_add_bug</div></td>
+    <td class='none'><div class='testcase'>test_001: 添加bug</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -245,16 +245,22 @@ function showOutput(id, name) {
         </div>
         <pre>
         
-pt1.1: 正在定位元素信息：定位方式-&gt;link text,value值-&gt;测试
+pt1.1: [2018-12-29 17:25:21,575] - logger.py[line:27] - fuc:__console- INFO: -----测试开始-----
+正在定位元素信息：定位方式-&gt;link text,value值-&gt;测试
 正在定位元素信息：定位方式-&gt;link text,value值-&gt;Bug
 正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mainMenu']/div[3]/a[4]/i
+正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#module_chosen &gt; a.chosen-single.chosen-default &gt; span
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;//li[@class='active-result highlighted']
 正在定位元素信息：定位方式-&gt;class name,value值-&gt;chosen-choices
-正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='openedBuild_chosen']/div/ul/li[3]
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='openedBuild_chosen']/div/ul/li[1]
+正在定位元素信息：定位方式-&gt;id,value值-&gt;deadline
 正在定位元素信息：定位方式-&gt;css selector,value值-&gt;.input-control.has-icon-right.required&gt;input#title
 正在定位元素信息：定位方式-&gt;class name,value值-&gt;ke-edit-iframe
 正在定位元素信息：定位方式-&gt;tag name,value值-&gt;body
+正在定位元素信息：定位方式-&gt;css selector,value值-&gt;button.btn.btn-link.file-input-btn
 正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//td/button[@id='submit']
 True
+[2018-12-29 17:25:33,451] - logger.py[line:27] - fuc:__console- INFO: ---测试结束----
 
 
         </pre>
@@ -265,16 +271,16 @@ True
 </tr>
 
 <tr class='passClass'>
-    <td>test_login.loginclass</td>
-    <td>2</td>
-    <td>2</td>
+    <td>test_confirmbug_case.confirmbug_case</td>
+    <td>1</td>
+    <td>1</td>
     <td>0</td>
     <td>0</td>
-    <td><a href="javascript:showClassDetail('c2',2)">Detail</a></td>
+    <td><a href="javascript:showClassDetail('c2',1)">Detail</a></td>
 </tr>
 
 <tr id='pt2.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_1: 验证用户密码正确，登陆成功</div></td>
+    <td class='none'><div class='testcase'>test_001: 确认bug</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -288,53 +294,33 @@ True
         </div>
         <pre>
         
-pt2.1: 正在定位元素信息：定位方式-&gt;link text,value值-&gt;测试
+pt2.1: [2018-12-29 17:25:21,575] - logger.py[line:27] - fuc:__console- INFO: -----测试开始-----
+正在定位元素信息：定位方式-&gt;link text,value值-&gt;测试
 正在定位元素信息：定位方式-&gt;link text,value值-&gt;Bug
 正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mainMenu']/div[3]/a[4]/i
+正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#module_chosen &gt; a.chosen-single.chosen-default &gt; span
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;//li[@class='active-result highlighted']
 正在定位元素信息：定位方式-&gt;class name,value值-&gt;chosen-choices
-正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='openedBuild_chosen']/div/ul/li[3]
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='openedBuild_chosen']/div/ul/li[1]
+正在定位元素信息：定位方式-&gt;id,value值-&gt;deadline
 正在定位元素信息：定位方式-&gt;css selector,value值-&gt;.input-control.has-icon-right.required&gt;input#title
 正在定位元素信息：定位方式-&gt;class name,value值-&gt;ke-edit-iframe
 正在定位元素信息：定位方式-&gt;tag name,value值-&gt;body
+正在定位元素信息：定位方式-&gt;css selector,value值-&gt;button.btn.btn-link.file-input-btn
 正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//td/button[@id='submit']
 True
-登陆成功，获取登陆结果:admin
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-</tr>
-
-<tr id='pt2.2' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_2: 验证用户密码错误，登陆失败</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt2.2')" >
-        pass</a>
-
-    <div id='div_pt2.2' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt2.2').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-pt2.2: 正在定位元素信息：定位方式-&gt;link text,value值-&gt;测试
-正在定位元素信息：定位方式-&gt;link text,value值-&gt;Bug
-正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mainMenu']/div[3]/a[4]/i
-正在定位元素信息：定位方式-&gt;class name,value值-&gt;chosen-choices
-正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='openedBuild_chosen']/div/ul/li[3]
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;.input-control.has-icon-right.required&gt;input#title
+[2018-12-29 17:25:33,451] - logger.py[line:27] - fuc:__console- INFO: ---测试结束----
+[2018-12-29 17:25:54,607] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='bugList']/tbody/tr[1]/td[10]/a[1]/i
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mailto_chosen']/ul/li/input
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mailto_chosen']/div/ul/li[3]
 正在定位元素信息：定位方式-&gt;class name,value值-&gt;ke-edit-iframe
 正在定位元素信息：定位方式-&gt;tag name,value值-&gt;body
-正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//td/button[@id='submit']
+正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
 True
-登陆成功，获取登陆结果:admin
-登陆失败，获取登陆结果：
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='bugList']/tbody/tr[1]/td[3]/span
+[已确认]
+[2018-12-29 17:25:59,282] - logger.py[line:27] - fuc:__console- INFO: ---测试结束----
 
 
         </pre>
@@ -345,16 +331,16 @@ True
 </tr>
 
 <tr class='passClass'>
-    <td>test_login_case.LoginPageCase</td>
-    <td>5</td>
-    <td>5</td>
+    <td>test_login_case.Loginddt</td>
+    <td>6</td>
+    <td>6</td>
     <td>0</td>
     <td>0</td>
-    <td><a href="javascript:showClassDetail('c3',5)">Detail</a></td>
+    <td><a href="javascript:showClassDetail('c3',6)">Detail</a></td>
 </tr>
 
 <tr id='pt3.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_001: 输入admin，输入sly1992. 点击登录</div></td>
+    <td class='none'><div class='testcase'>test_001_1: dict() -> new empty dictionary</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -368,22 +354,40 @@ True
         </div>
         <pre>
         
-pt3.1: 正在定位元素信息：定位方式-&gt;link text,value值-&gt;测试
+pt3.1: [2018-12-29 17:25:21,575] - logger.py[line:27] - fuc:__console- INFO: -----测试开始-----
+正在定位元素信息：定位方式-&gt;link text,value值-&gt;测试
 正在定位元素信息：定位方式-&gt;link text,value值-&gt;Bug
 正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mainMenu']/div[3]/a[4]/i
+正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#module_chosen &gt; a.chosen-single.chosen-default &gt; span
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;//li[@class='active-result highlighted']
 正在定位元素信息：定位方式-&gt;class name,value值-&gt;chosen-choices
-正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='openedBuild_chosen']/div/ul/li[3]
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='openedBuild_chosen']/div/ul/li[1]
+正在定位元素信息：定位方式-&gt;id,value值-&gt;deadline
 正在定位元素信息：定位方式-&gt;css selector,value值-&gt;.input-control.has-icon-right.required&gt;input#title
 正在定位元素信息：定位方式-&gt;class name,value值-&gt;ke-edit-iframe
 正在定位元素信息：定位方式-&gt;tag name,value值-&gt;body
+正在定位元素信息：定位方式-&gt;css selector,value值-&gt;button.btn.btn-link.file-input-btn
 正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//td/button[@id='submit']
 True
-登陆成功，获取登陆结果:admin
-登陆失败，获取登陆结果：
+[2018-12-29 17:25:33,451] - logger.py[line:27] - fuc:__console- INFO: ---测试结束----
+[2018-12-29 17:25:54,607] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='bugList']/tbody/tr[1]/td[10]/a[1]/i
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mailto_chosen']/ul/li/input
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mailto_chosen']/div/ul/li[3]
+正在定位元素信息：定位方式-&gt;class name,value值-&gt;ke-edit-iframe
+正在定位元素信息：定位方式-&gt;tag name,value值-&gt;body
+正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
+True
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='bugList']/tbody/tr[1]/td[3]/span
+[已确认]
+[2018-12-29 17:25:59,282] - logger.py[line:27] - fuc:__console- INFO: ---测试结束----
+[2018-12-29 17:26:06,526] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+测试数据:{u'pwd': u'sly1992.', u'user': u'admin', u'expect': u'admin'}
 正在定位元素信息：定位方式-&gt;id,value值-&gt;account
 正在定位元素信息：定位方式-&gt;name,value值-&gt;password
 正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
 正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
+[2018-12-29 17:26:07,591] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
 
 
         </pre>
@@ -394,7 +398,7 @@ True
 </tr>
 
 <tr id='pt3.2' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_002: 输入admin，输入sly1992. 点击记住登录按钮，点击登录</div></td>
+    <td class='none'><div class='testcase'>test_001_2: dict() -> new empty dictionary</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -408,27 +412,48 @@ True
         </div>
         <pre>
         
-pt3.2: 正在定位元素信息：定位方式-&gt;link text,value值-&gt;测试
+pt3.2: [2018-12-29 17:25:21,575] - logger.py[line:27] - fuc:__console- INFO: -----测试开始-----
+正在定位元素信息：定位方式-&gt;link text,value值-&gt;测试
 正在定位元素信息：定位方式-&gt;link text,value值-&gt;Bug
 正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mainMenu']/div[3]/a[4]/i
+正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#module_chosen &gt; a.chosen-single.chosen-default &gt; span
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;//li[@class='active-result highlighted']
 正在定位元素信息：定位方式-&gt;class name,value值-&gt;chosen-choices
-正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='openedBuild_chosen']/div/ul/li[3]
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='openedBuild_chosen']/div/ul/li[1]
+正在定位元素信息：定位方式-&gt;id,value值-&gt;deadline
 正在定位元素信息：定位方式-&gt;css selector,value值-&gt;.input-control.has-icon-right.required&gt;input#title
 正在定位元素信息：定位方式-&gt;class name,value值-&gt;ke-edit-iframe
 正在定位元素信息：定位方式-&gt;tag name,value值-&gt;body
+正在定位元素信息：定位方式-&gt;css selector,value值-&gt;button.btn.btn-link.file-input-btn
 正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//td/button[@id='submit']
 True
-登陆成功，获取登陆结果:admin
-登陆失败，获取登陆结果：
+[2018-12-29 17:25:33,451] - logger.py[line:27] - fuc:__console- INFO: ---测试结束----
+[2018-12-29 17:25:54,607] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='bugList']/tbody/tr[1]/td[10]/a[1]/i
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mailto_chosen']/ul/li/input
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mailto_chosen']/div/ul/li[3]
+正在定位元素信息：定位方式-&gt;class name,value值-&gt;ke-edit-iframe
+正在定位元素信息：定位方式-&gt;tag name,value值-&gt;body
+正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
+True
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='bugList']/tbody/tr[1]/td[3]/span
+[已确认]
+[2018-12-29 17:25:59,282] - logger.py[line:27] - fuc:__console- INFO: ---测试结束----
+[2018-12-29 17:26:06,526] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+测试数据:{u'pwd': u'sly1992.', u'user': u'admin', u'expect': u'admin'}
 正在定位元素信息：定位方式-&gt;id,value值-&gt;account
 正在定位元素信息：定位方式-&gt;name,value值-&gt;password
 正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
 正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
+[2018-12-29 17:26:07,591] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:26:11,266] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+测试数据:{u'pwd': u'', u'user': u'admin', u'expect': u''}
 正在定位元素信息：定位方式-&gt;id,value值-&gt;account
 正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;keepLoginon
 正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
 正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
+获取text失败，返回''
+[2018-12-29 17:26:11,591] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
 
 
         </pre>
@@ -439,7 +464,7 @@ True
 </tr>
 
 <tr id='pt3.3' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_003: 输入admin,输入为空，点击登录</div></td>
+    <td class='none'><div class='testcase'>test_001_3: dict() -> new empty dictionary</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -453,32 +478,56 @@ True
         </div>
         <pre>
         
-pt3.3: 正在定位元素信息：定位方式-&gt;link text,value值-&gt;测试
+pt3.3: [2018-12-29 17:25:21,575] - logger.py[line:27] - fuc:__console- INFO: -----测试开始-----
+正在定位元素信息：定位方式-&gt;link text,value值-&gt;测试
 正在定位元素信息：定位方式-&gt;link text,value值-&gt;Bug
 正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mainMenu']/div[3]/a[4]/i
+正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#module_chosen &gt; a.chosen-single.chosen-default &gt; span
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;//li[@class='active-result highlighted']
 正在定位元素信息：定位方式-&gt;class name,value值-&gt;chosen-choices
-正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='openedBuild_chosen']/div/ul/li[3]
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='openedBuild_chosen']/div/ul/li[1]
+正在定位元素信息：定位方式-&gt;id,value值-&gt;deadline
 正在定位元素信息：定位方式-&gt;css selector,value值-&gt;.input-control.has-icon-right.required&gt;input#title
 正在定位元素信息：定位方式-&gt;class name,value值-&gt;ke-edit-iframe
 正在定位元素信息：定位方式-&gt;tag name,value值-&gt;body
+正在定位元素信息：定位方式-&gt;css selector,value值-&gt;button.btn.btn-link.file-input-btn
 正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//td/button[@id='submit']
 True
-登陆成功，获取登陆结果:admin
-登陆失败，获取登陆结果：
+[2018-12-29 17:25:33,451] - logger.py[line:27] - fuc:__console- INFO: ---测试结束----
+[2018-12-29 17:25:54,607] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='bugList']/tbody/tr[1]/td[10]/a[1]/i
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mailto_chosen']/ul/li/input
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mailto_chosen']/div/ul/li[3]
+正在定位元素信息：定位方式-&gt;class name,value值-&gt;ke-edit-iframe
+正在定位元素信息：定位方式-&gt;tag name,value值-&gt;body
+正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
+True
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='bugList']/tbody/tr[1]/td[3]/span
+[已确认]
+[2018-12-29 17:25:59,282] - logger.py[line:27] - fuc:__console- INFO: ---测试结束----
+[2018-12-29 17:26:06,526] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+测试数据:{u'pwd': u'sly1992.', u'user': u'admin', u'expect': u'admin'}
 正在定位元素信息：定位方式-&gt;id,value值-&gt;account
 正在定位元素信息：定位方式-&gt;name,value值-&gt;password
 正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
 正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;keepLoginon
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
+[2018-12-29 17:26:07,591] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:26:11,266] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+测试数据:{u'pwd': u'', u'user': u'admin', u'expect': u''}
 正在定位元素信息：定位方式-&gt;id,value值-&gt;account
 正在定位元素信息：定位方式-&gt;name,value值-&gt;password
 正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
 正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
 获取text失败，返回''
+[2018-12-29 17:26:11,591] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:26:15,595] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+测试数据:{u'pwd': u'123456', u'user': u'admin', u'expect': u''}
+正在定位元素信息：定位方式-&gt;id,value值-&gt;account
+正在定位元素信息：定位方式-&gt;name,value值-&gt;password
+正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
+正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
+获取text失败，返回''
+[2018-12-29 17:26:15,885] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
 
 
         </pre>
@@ -489,7 +538,7 @@ True
 </tr>
 
 <tr id='pt3.4' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_004: 输入admin，输入123456，点击登录</div></td>
+    <td class='none'><div class='testcase'>test_001_4: dict() -> new empty dictionary</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -503,37 +552,64 @@ True
         </div>
         <pre>
         
-pt3.4: 正在定位元素信息：定位方式-&gt;link text,value值-&gt;测试
+pt3.4: [2018-12-29 17:25:21,575] - logger.py[line:27] - fuc:__console- INFO: -----测试开始-----
+正在定位元素信息：定位方式-&gt;link text,value值-&gt;测试
 正在定位元素信息：定位方式-&gt;link text,value值-&gt;Bug
 正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mainMenu']/div[3]/a[4]/i
+正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#module_chosen &gt; a.chosen-single.chosen-default &gt; span
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;//li[@class='active-result highlighted']
 正在定位元素信息：定位方式-&gt;class name,value值-&gt;chosen-choices
-正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='openedBuild_chosen']/div/ul/li[3]
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='openedBuild_chosen']/div/ul/li[1]
+正在定位元素信息：定位方式-&gt;id,value值-&gt;deadline
 正在定位元素信息：定位方式-&gt;css selector,value值-&gt;.input-control.has-icon-right.required&gt;input#title
 正在定位元素信息：定位方式-&gt;class name,value值-&gt;ke-edit-iframe
 正在定位元素信息：定位方式-&gt;tag name,value值-&gt;body
+正在定位元素信息：定位方式-&gt;css selector,value值-&gt;button.btn.btn-link.file-input-btn
 正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//td/button[@id='submit']
 True
-登陆成功，获取登陆结果:admin
-登陆失败，获取登陆结果：
+[2018-12-29 17:25:33,451] - logger.py[line:27] - fuc:__console- INFO: ---测试结束----
+[2018-12-29 17:25:54,607] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='bugList']/tbody/tr[1]/td[10]/a[1]/i
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mailto_chosen']/ul/li/input
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mailto_chosen']/div/ul/li[3]
+正在定位元素信息：定位方式-&gt;class name,value值-&gt;ke-edit-iframe
+正在定位元素信息：定位方式-&gt;tag name,value值-&gt;body
+正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
+True
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='bugList']/tbody/tr[1]/td[3]/span
+[已确认]
+[2018-12-29 17:25:59,282] - logger.py[line:27] - fuc:__console- INFO: ---测试结束----
+[2018-12-29 17:26:06,526] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+测试数据:{u'pwd': u'sly1992.', u'user': u'admin', u'expect': u'admin'}
 正在定位元素信息：定位方式-&gt;id,value值-&gt;account
 正在定位元素信息：定位方式-&gt;name,value值-&gt;password
 正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
 正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;keepLoginon
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
+[2018-12-29 17:26:07,591] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:26:11,266] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+测试数据:{u'pwd': u'', u'user': u'admin', u'expect': u''}
 正在定位元素信息：定位方式-&gt;id,value值-&gt;account
 正在定位元素信息：定位方式-&gt;name,value值-&gt;password
 正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
 正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
 获取text失败，返回''
+[2018-12-29 17:26:11,591] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:26:15,595] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+测试数据:{u'pwd': u'123456', u'user': u'admin', u'expect': u''}
 正在定位元素信息：定位方式-&gt;id,value值-&gt;account
 正在定位元素信息：定位方式-&gt;name,value值-&gt;password
 正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
 正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
 获取text失败，返回''
+[2018-12-29 17:26:15,885] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:26:20,871] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+测试数据:{u'pwd': u'123456', u'user': u'admin123', u'expect': u''}
+正在定位元素信息：定位方式-&gt;id,value值-&gt;account
+正在定位元素信息：定位方式-&gt;name,value值-&gt;password
+正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
+正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
+获取text失败，返回''
+[2018-12-29 17:26:21,223] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
 
 
         </pre>
@@ -544,7 +620,7 @@ True
 </tr>
 
 <tr id='pt3.5' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_005: 输入admin22,输入123456，点击登录</div></td>
+    <td class='none'><div class='testcase'>test_002_1: dict() -> new empty dictionary</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
@@ -558,42 +634,72 @@ True
         </div>
         <pre>
         
-pt3.5: 正在定位元素信息：定位方式-&gt;link text,value值-&gt;测试
+pt3.5: [2018-12-29 17:25:21,575] - logger.py[line:27] - fuc:__console- INFO: -----测试开始-----
+正在定位元素信息：定位方式-&gt;link text,value值-&gt;测试
 正在定位元素信息：定位方式-&gt;link text,value值-&gt;Bug
 正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mainMenu']/div[3]/a[4]/i
+正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#module_chosen &gt; a.chosen-single.chosen-default &gt; span
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;//li[@class='active-result highlighted']
 正在定位元素信息：定位方式-&gt;class name,value值-&gt;chosen-choices
-正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='openedBuild_chosen']/div/ul/li[3]
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='openedBuild_chosen']/div/ul/li[1]
+正在定位元素信息：定位方式-&gt;id,value值-&gt;deadline
 正在定位元素信息：定位方式-&gt;css selector,value值-&gt;.input-control.has-icon-right.required&gt;input#title
 正在定位元素信息：定位方式-&gt;class name,value值-&gt;ke-edit-iframe
 正在定位元素信息：定位方式-&gt;tag name,value值-&gt;body
+正在定位元素信息：定位方式-&gt;css selector,value值-&gt;button.btn.btn-link.file-input-btn
 正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//td/button[@id='submit']
 True
-登陆成功，获取登陆结果:admin
-登陆失败，获取登陆结果：
+[2018-12-29 17:25:33,451] - logger.py[line:27] - fuc:__console- INFO: ---测试结束----
+[2018-12-29 17:25:54,607] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='bugList']/tbody/tr[1]/td[10]/a[1]/i
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mailto_chosen']/ul/li/input
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mailto_chosen']/div/ul/li[3]
+正在定位元素信息：定位方式-&gt;class name,value值-&gt;ke-edit-iframe
+正在定位元素信息：定位方式-&gt;tag name,value值-&gt;body
+正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
+True
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='bugList']/tbody/tr[1]/td[3]/span
+[已确认]
+[2018-12-29 17:25:59,282] - logger.py[line:27] - fuc:__console- INFO: ---测试结束----
+[2018-12-29 17:26:06,526] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+测试数据:{u'pwd': u'sly1992.', u'user': u'admin', u'expect': u'admin'}
 正在定位元素信息：定位方式-&gt;id,value值-&gt;account
 正在定位元素信息：定位方式-&gt;name,value值-&gt;password
 正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
 正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
+[2018-12-29 17:26:07,591] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:26:11,266] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+测试数据:{u'pwd': u'', u'user': u'admin', u'expect': u''}
+正在定位元素信息：定位方式-&gt;id,value值-&gt;account
+正在定位元素信息：定位方式-&gt;name,value值-&gt;password
+正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
+正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
+获取text失败，返回''
+[2018-12-29 17:26:11,591] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:26:15,595] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+测试数据:{u'pwd': u'123456', u'user': u'admin', u'expect': u''}
+正在定位元素信息：定位方式-&gt;id,value值-&gt;account
+正在定位元素信息：定位方式-&gt;name,value值-&gt;password
+正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
+正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
+获取text失败，返回''
+[2018-12-29 17:26:15,885] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:26:20,871] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+测试数据:{u'pwd': u'123456', u'user': u'admin123', u'expect': u''}
+正在定位元素信息：定位方式-&gt;id,value值-&gt;account
+正在定位元素信息：定位方式-&gt;name,value值-&gt;password
+正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
+正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
+获取text失败，返回''
+[2018-12-29 17:26:21,223] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:26:25,125] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+测试数据:{u'pwd': u'sly1992.', u'user': u'admin', u'expect': u'admin'}
 正在定位元素信息：定位方式-&gt;id,value值-&gt;account
 正在定位元素信息：定位方式-&gt;name,value值-&gt;password
 正在定位元素信息：定位方式-&gt;id,value值-&gt;keepLoginon
 正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
 正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
+[2018-12-29 17:26:26,200] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
 
 
         </pre>
@@ -603,529 +709,96 @@ True
     </td>
 </tr>
 
-<tr class='passClass'>
-    <td>test_login_ddt.Loginddt</td>
-    <td>6</td>
-    <td>6</td>
-    <td>0</td>
-    <td>0</td>
-    <td><a href="javascript:showClassDetail('c4',6)">Detail</a></td>
-</tr>
-
-<tr id='pt4.1' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_001_1: dict() -> new empty dictionary</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.1')" >
-        pass</a>
-
-    <div id='div_pt4.1' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.1').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-pt4.1: 正在定位元素信息：定位方式-&gt;link text,value值-&gt;测试
-正在定位元素信息：定位方式-&gt;link text,value值-&gt;Bug
-正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mainMenu']/div[3]/a[4]/i
-正在定位元素信息：定位方式-&gt;class name,value值-&gt;chosen-choices
-正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='openedBuild_chosen']/div/ul/li[3]
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;.input-control.has-icon-right.required&gt;input#title
-正在定位元素信息：定位方式-&gt;class name,value值-&gt;ke-edit-iframe
-正在定位元素信息：定位方式-&gt;tag name,value值-&gt;body
-正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//td/button[@id='submit']
-True
-登陆成功，获取登陆结果:admin
-登陆失败，获取登陆结果：
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;keepLoginon
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
---------------开始测试:test_001--------------
-测试数据:{'pwd': 'sly1992.', 'user': 'admin', 'expect': 'admin'}
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
---------------结束测试:test_001--------------
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-</tr>
-
-<tr id='pt4.2' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_001_2: dict() -> new empty dictionary</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.2')" >
-        pass</a>
-
-    <div id='div_pt4.2' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.2').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-pt4.2: 正在定位元素信息：定位方式-&gt;link text,value值-&gt;测试
-正在定位元素信息：定位方式-&gt;link text,value值-&gt;Bug
-正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mainMenu']/div[3]/a[4]/i
-正在定位元素信息：定位方式-&gt;class name,value值-&gt;chosen-choices
-正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='openedBuild_chosen']/div/ul/li[3]
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;.input-control.has-icon-right.required&gt;input#title
-正在定位元素信息：定位方式-&gt;class name,value值-&gt;ke-edit-iframe
-正在定位元素信息：定位方式-&gt;tag name,value值-&gt;body
-正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//td/button[@id='submit']
-True
-登陆成功，获取登陆结果:admin
-登陆失败，获取登陆结果：
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;keepLoginon
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
---------------开始测试:test_001--------------
-测试数据:{'pwd': 'sly1992.', 'user': 'admin', 'expect': 'admin'}
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
---------------结束测试:test_001--------------
---------------开始测试:test_001--------------
-测试数据:{'pwd': ' ', 'user': 'admin', 'expect': ''}
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
---------------结束测试:test_001--------------
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-</tr>
-
-<tr id='pt4.3' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_001_3: dict() -> new empty dictionary</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.3')" >
-        pass</a>
-
-    <div id='div_pt4.3' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.3').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-pt4.3: 正在定位元素信息：定位方式-&gt;link text,value值-&gt;测试
-正在定位元素信息：定位方式-&gt;link text,value值-&gt;Bug
-正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mainMenu']/div[3]/a[4]/i
-正在定位元素信息：定位方式-&gt;class name,value值-&gt;chosen-choices
-正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='openedBuild_chosen']/div/ul/li[3]
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;.input-control.has-icon-right.required&gt;input#title
-正在定位元素信息：定位方式-&gt;class name,value值-&gt;ke-edit-iframe
-正在定位元素信息：定位方式-&gt;tag name,value值-&gt;body
-正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//td/button[@id='submit']
-True
-登陆成功，获取登陆结果:admin
-登陆失败，获取登陆结果：
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;keepLoginon
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
---------------开始测试:test_001--------------
-测试数据:{'pwd': 'sly1992.', 'user': 'admin', 'expect': 'admin'}
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
---------------结束测试:test_001--------------
---------------开始测试:test_001--------------
-测试数据:{'pwd': ' ', 'user': 'admin', 'expect': ''}
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
---------------结束测试:test_001--------------
---------------开始测试:test_001--------------
-测试数据:{'pwd': '123456', 'user': 'admin', 'expect': ''}
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
---------------结束测试:test_001--------------
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-</tr>
-
-<tr id='pt4.4' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_001_4: dict() -> new empty dictionary</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.4')" >
-        pass</a>
-
-    <div id='div_pt4.4' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.4').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-pt4.4: 正在定位元素信息：定位方式-&gt;link text,value值-&gt;测试
-正在定位元素信息：定位方式-&gt;link text,value值-&gt;Bug
-正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mainMenu']/div[3]/a[4]/i
-正在定位元素信息：定位方式-&gt;class name,value值-&gt;chosen-choices
-正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='openedBuild_chosen']/div/ul/li[3]
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;.input-control.has-icon-right.required&gt;input#title
-正在定位元素信息：定位方式-&gt;class name,value值-&gt;ke-edit-iframe
-正在定位元素信息：定位方式-&gt;tag name,value值-&gt;body
-正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//td/button[@id='submit']
-True
-登陆成功，获取登陆结果:admin
-登陆失败，获取登陆结果：
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;keepLoginon
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
---------------开始测试:test_001--------------
-测试数据:{'pwd': 'sly1992.', 'user': 'admin', 'expect': 'admin'}
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
---------------结束测试:test_001--------------
---------------开始测试:test_001--------------
-测试数据:{'pwd': ' ', 'user': 'admin', 'expect': ''}
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
---------------结束测试:test_001--------------
---------------开始测试:test_001--------------
-测试数据:{'pwd': '123456', 'user': 'admin', 'expect': ''}
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
---------------结束测试:test_001--------------
---------------开始测试:test_001--------------
-测试数据:{'pwd': '123456', 'user': 'admin22', 'expect': ''}
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
---------------结束测试:test_001--------------
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-</tr>
-
-<tr id='pt4.5' class='hiddenRow'>
-    <td class='none'><div class='testcase'>test_002_1: dict() -> new empty dictionary</div></td>
-    <td colspan='5' align='center'>
-
-    <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.5')" >
-        pass</a>
-
-    <div id='div_pt4.5' class="popup_window">
-        <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.5').style.display = 'none' " >
-           [x]</a>
-        </div>
-        <pre>
-        
-pt4.5: 正在定位元素信息：定位方式-&gt;link text,value值-&gt;测试
-正在定位元素信息：定位方式-&gt;link text,value值-&gt;Bug
-正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mainMenu']/div[3]/a[4]/i
-正在定位元素信息：定位方式-&gt;class name,value值-&gt;chosen-choices
-正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='openedBuild_chosen']/div/ul/li[3]
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;.input-control.has-icon-right.required&gt;input#title
-正在定位元素信息：定位方式-&gt;class name,value值-&gt;ke-edit-iframe
-正在定位元素信息：定位方式-&gt;tag name,value值-&gt;body
-正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//td/button[@id='submit']
-True
-登陆成功，获取登陆结果:admin
-登陆失败，获取登陆结果：
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;keepLoginon
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
---------------开始测试:test_001--------------
-测试数据:{'pwd': 'sly1992.', 'user': 'admin', 'expect': 'admin'}
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
---------------结束测试:test_001--------------
---------------开始测试:test_001--------------
-测试数据:{'pwd': ' ', 'user': 'admin', 'expect': ''}
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
---------------结束测试:test_001--------------
---------------开始测试:test_001--------------
-测试数据:{'pwd': '123456', 'user': 'admin', 'expect': ''}
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
---------------结束测试:test_001--------------
---------------开始测试:test_001--------------
-测试数据:{'pwd': '123456', 'user': 'admin22', 'expect': ''}
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
---------------结束测试:test_001--------------
---------------开始测试：test_002--------------
-测试数据:{'pwd': 'sly1992.', 'user': 'admin', 'expect': 'admin'}
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;keepLoginon
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
---------------结束测试：test_002--------------
-
-
-        </pre>
-    </div>
-    <!--css div popup end-->
-
-    </td>
-</tr>
-
-<tr id='pt4.6' class='hiddenRow'>
+<tr id='pt3.6' class='hiddenRow'>
     <td class='none'><div class='testcase'>test_002_2: dict() -> new empty dictionary</div></td>
     <td colspan='5' align='center'>
 
     <!--css div popup start-->
-    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt4.6')" >
+    <a class="popup_link" onfocus='this.blur();' href="javascript:showTestDetail('div_pt3.6')" >
         pass</a>
 
-    <div id='div_pt4.6' class="popup_window">
+    <div id='div_pt3.6' class="popup_window">
         <div style='text-align: right; color:red;cursor:pointer'>
-        <a onfocus='this.blur();' onclick="document.getElementById('div_pt4.6').style.display = 'none' " >
+        <a onfocus='this.blur();' onclick="document.getElementById('div_pt3.6').style.display = 'none' " >
            [x]</a>
         </div>
         <pre>
         
-pt4.6: 正在定位元素信息：定位方式-&gt;link text,value值-&gt;测试
+pt3.6: [2018-12-29 17:25:21,575] - logger.py[line:27] - fuc:__console- INFO: -----测试开始-----
+正在定位元素信息：定位方式-&gt;link text,value值-&gt;测试
 正在定位元素信息：定位方式-&gt;link text,value值-&gt;Bug
 正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mainMenu']/div[3]/a[4]/i
+正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#module_chosen &gt; a.chosen-single.chosen-default &gt; span
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;//li[@class='active-result highlighted']
 正在定位元素信息：定位方式-&gt;class name,value值-&gt;chosen-choices
-正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='openedBuild_chosen']/div/ul/li[3]
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='openedBuild_chosen']/div/ul/li[1]
+正在定位元素信息：定位方式-&gt;id,value值-&gt;deadline
 正在定位元素信息：定位方式-&gt;css selector,value值-&gt;.input-control.has-icon-right.required&gt;input#title
 正在定位元素信息：定位方式-&gt;class name,value值-&gt;ke-edit-iframe
 正在定位元素信息：定位方式-&gt;tag name,value值-&gt;body
+正在定位元素信息：定位方式-&gt;css selector,value值-&gt;button.btn.btn-link.file-input-btn
 正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//td/button[@id='submit']
 True
-登陆成功，获取登陆结果:admin
-登陆失败，获取登陆结果：
+[2018-12-29 17:25:33,451] - logger.py[line:27] - fuc:__console- INFO: ---测试结束----
+[2018-12-29 17:25:54,607] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='bugList']/tbody/tr[1]/td[10]/a[1]/i
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mailto_chosen']/ul/li/input
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='mailto_chosen']/div/ul/li[3]
+正在定位元素信息：定位方式-&gt;class name,value值-&gt;ke-edit-iframe
+正在定位元素信息：定位方式-&gt;tag name,value值-&gt;body
+正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
+True
+正在定位元素信息：定位方式-&gt;xpath,value值-&gt;.//*[@id='bugList']/tbody/tr[1]/td[3]/span
+[已确认]
+[2018-12-29 17:25:59,282] - logger.py[line:27] - fuc:__console- INFO: ---测试结束----
+[2018-12-29 17:26:06,526] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+测试数据:{u'pwd': u'sly1992.', u'user': u'admin', u'expect': u'admin'}
 正在定位元素信息：定位方式-&gt;id,value值-&gt;account
 正在定位元素信息：定位方式-&gt;name,value值-&gt;password
 正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
 正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
+[2018-12-29 17:26:07,591] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:26:11,266] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+测试数据:{u'pwd': u'', u'user': u'admin', u'expect': u''}
+正在定位元素信息：定位方式-&gt;id,value值-&gt;account
+正在定位元素信息：定位方式-&gt;name,value值-&gt;password
+正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
+正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
+获取text失败，返回''
+[2018-12-29 17:26:11,591] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:26:15,595] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+测试数据:{u'pwd': u'123456', u'user': u'admin', u'expect': u''}
+正在定位元素信息：定位方式-&gt;id,value值-&gt;account
+正在定位元素信息：定位方式-&gt;name,value值-&gt;password
+正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
+正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
+获取text失败，返回''
+[2018-12-29 17:26:15,885] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:26:20,871] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+测试数据:{u'pwd': u'123456', u'user': u'admin123', u'expect': u''}
+正在定位元素信息：定位方式-&gt;id,value值-&gt;account
+正在定位元素信息：定位方式-&gt;name,value值-&gt;password
+正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
+正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
+获取text失败，返回''
+[2018-12-29 17:26:21,223] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:26:25,125] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+测试数据:{u'pwd': u'sly1992.', u'user': u'admin', u'expect': u'admin'}
 正在定位元素信息：定位方式-&gt;id,value值-&gt;account
 正在定位元素信息：定位方式-&gt;name,value值-&gt;password
 正在定位元素信息：定位方式-&gt;id,value值-&gt;keepLoginon
 正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
 正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
---------------开始测试:test_001--------------
-测试数据:{'pwd': 'sly1992.', 'user': 'admin', 'expect': 'admin'}
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
---------------结束测试:test_001--------------
---------------开始测试:test_001--------------
-测试数据:{'pwd': ' ', 'user': 'admin', 'expect': ''}
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
---------------结束测试:test_001--------------
---------------开始测试:test_001--------------
-测试数据:{'pwd': '123456', 'user': 'admin', 'expect': ''}
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
---------------结束测试:test_001--------------
---------------开始测试:test_001--------------
-测试数据:{'pwd': '123456', 'user': 'admin22', 'expect': ''}
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
-获取text失败，返回''
---------------结束测试:test_001--------------
---------------开始测试：test_002--------------
-测试数据:{'pwd': 'sly1992.', 'user': 'admin', 'expect': 'admin'}
-正在定位元素信息：定位方式-&gt;id,value值-&gt;account
-正在定位元素信息：定位方式-&gt;name,value值-&gt;password
-正在定位元素信息：定位方式-&gt;id,value值-&gt;keepLoginon
-正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
-正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
---------------结束测试：test_002--------------
---------------开始测试：test_002--------------
-测试数据:{'pwd': ' ', 'user': 'admin', 'expect': ''}
+[2018-12-29 17:26:26,200] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+[2018-12-29 17:26:30,112] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
+测试数据:{u'pwd': u'', u'user': u'admin', u'expect': u''}
 正在定位元素信息：定位方式-&gt;id,value值-&gt;account
 正在定位元素信息：定位方式-&gt;name,value值-&gt;password
 正在定位元素信息：定位方式-&gt;id,value值-&gt;keepLoginon
 正在定位元素信息：定位方式-&gt;id,value值-&gt;submit
 正在定位元素信息：定位方式-&gt;css selector,value值-&gt;#userNav&gt;li&gt;a
 获取text失败，返回''
---------------结束测试：test_002--------------
+[2018-12-29 17:26:30,539] - logger.py[line:27] - fuc:__console- INFO: ---测试开始----
 
 
         </pre>
@@ -1137,8 +810,8 @@ True
 
 <tr id='total_row'>
     <td>Total</td>
-    <td>14</td>
-    <td>14</td>
+    <td>8</td>
+    <td>8</td>
     <td>0</td>
     <td>0</td>
     <td>&nbsp;</td>

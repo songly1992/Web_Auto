@@ -12,7 +12,7 @@ import time
 login_url="http://127.0.0.1/biz/user-login.html"
 
 
-class loginpage(Base):   #继承Base类，就不用实例化
+class LoginPage(Base):   #继承Base类，就不用实例化
 
     '''定位登陆元素'''
     locl_username=("id","account")      #登陆用户名
@@ -65,7 +65,7 @@ class loginpage(Base):   #继承Base类，就不用实例化
 if __name__=="__main__":
     driver=webdriver.Chrome()
     driver.get(login_url)
-    login_page=loginpage(driver)
+    login_page=LoginPage(driver)
     login_page.input_username("admin")
     login_page.input_password("sly1992.")
     login_page.click_keeplogin()
